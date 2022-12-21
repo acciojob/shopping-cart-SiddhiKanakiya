@@ -4,10 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Shopping cart</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1> Shopping cart</h1>
+
+	<label for="item-name-input">Name: </label> <input type="text" placeholder="Name of item" id="item-name-input"><br>
+	<label for="item-price-input">Price: </label> <input type="number" placeholder="Price of item" id="item-price-input"><br>
+	<button type="button" id="add">Add</button>
+
+	<table>
+		<thead>
+			<th id="item">Name</th>
+			<th id="prices">Price</th>
+		</thead>
+
+		<tbody>
+
+		</tbody>
+
+
+		<tfoot>
+			<tr>
+				<td colspan="2"><h3  id="total">Grand Total: <span>0</span></h3></td>
+				<!-- <td>0</td> -->
+			</tr>
+		</tfoot>
+	</table>
+	
+	
+
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 

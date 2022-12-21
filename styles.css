@@ -1,2 +1,6 @@
-
 /* Your CSS Code here. */
+
+th,tr,td{
+    border: 2px solid black;
+    width: 200px;
+}
